@@ -4,7 +4,7 @@
 
 This app was challenge two from [Wes Bos](https://javascript30.com/) which uses HTML, CSS, and vanilla JS 
 
-Going over the challenges to refresh my skills in JS. 
+Displays the current time using pointers rotate animation, getting built in JS Time and changing pointer positions using JS. 
 ## Installation
 
 1. Clone the repo
@@ -12,10 +12,9 @@ Going over the challenges to refresh my skills in JS.
 
 ## Usage
 
-Press the keys that are displayed on the screen to hear the audio
 
 [Deployed Site](https://sharonkim09.github.io/CSS-JS-Clock/)
-![]()
+![](./CSS+JS-Clock.png)
 
 
 ## Credit
