@@ -21,6 +21,8 @@
     <script>
         // reference to elements
         const secondHand = document.querySelector(".second-hand")
+        const minHand = document.querySelector(".min-hand")
+
         // function to set the current time
         function setDate() {
             console.log("Hi")
@@ -33,6 +35,12 @@
             // adding transform style for seconds
             secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
             console.log(seconds);
+            // retrieve and set minutes
+            const mins = now.getMinutes();
+            const minsDegrees= ((mins/60)*360)+90;
+            // adding style for minutes
+            minHand.style.transform=`rotate(${minsDegrees}deg)`;
+       
         }
         // repeats function every second to implement the second's effect
         setInterval(setDate, 1000);
